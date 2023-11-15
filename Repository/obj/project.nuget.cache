@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HBM9uX6VMG+Rxir8PsIgdW6qGRPzaBIIiRv+NERkbQIuai2qhAS3SHNV3oulAFAIxbnnTog2wAvpegB5nnrtQw==",
+  "success": true,
+  "projectFilePath": "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj",
+  "expectedPackageFiles": [
+    "/home/juliomoquenco/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
