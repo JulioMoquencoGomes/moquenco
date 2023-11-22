@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o39a3OizIyGXmaGwNKERXFM+W+YeA5AwdAFJk+MbUoecGtvCK4rO9OC0ANXWx8mIbprSvuqzFgt4zj81WW/WCw==",
+  "dgSpecHash": "Qfi3qezx6gYM/L9BzcvRvrGa10qSVeyxnXI7WIs3bj7uOrTvz1kZ5gSLZv4nxOVlAWkhsIsqWKbBcX/j+UiOAg==",
   "success": true,
   "projectFilePath": "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/juliomoquenco/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

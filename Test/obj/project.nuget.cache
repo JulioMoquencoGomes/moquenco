@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TbPNnihmFRDRZSFNHZJCKAo4sAuPRjYaQJOQDb5Bz912RDmRtzdoTZrOfHvAgdUXNFd5RbjH6weiy0s25fiDRQ==",
+  "dgSpecHash": "/4Qz+Bo3ORKclqkOtfQwopD9ByxTkTtDgLk1IczwXZdJQlvTueMEvDwo3MBhQXjal6AgXlRmsLDGeCz+qRBREA==",
   "success": true,
   "projectFilePath": "/home/juliomoquenco/projetos/moquenco/Test/Test.csproj",
   "expectedPackageFiles": [
@@ -50,8 +50,7 @@
     "/home/juliomoquenco/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/juliomoquenco/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "/home/juliomoquenco/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/home/juliomoquenco/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/home/juliomoquenco/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+    "/home/juliomoquenco/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }

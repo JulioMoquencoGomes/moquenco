@@ -4,14 +4,14 @@
     "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj": {}
   },
   "projects": {
-    "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj": {
+    "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj",
+        "projectUniqueName": "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj",
         "packagesPath": "/home/juliomoquenco/.nuget/packages/",
-        "outputPath": "/home/juliomoquenco/projetos/moquenco/Repository/obj/",
+        "outputPath": "/home/juliomoquenco/projetos/moquenco/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/juliomoquenco/.nuget/NuGet/NuGet.Config"
@@ -48,18 +48,157 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.8, 6.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juliomoquenco/projetos/moquenco/Infra/Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juliomoquenco/projetos/moquenco/Infra/Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "/home/juliomoquenco/projetos/moquenco/Infra/Infra.csproj",
+        "packagesPath": "/home/juliomoquenco/.nuget/packages/",
+        "outputPath": "/home/juliomoquenco/projetos/moquenco/Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juliomoquenco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj": {
+                "projectPath": "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/home/juliomoquenco/projetos/moquenco/Repository/Repository.csproj",
+        "packagesPath": "/home/juliomoquenco/.nuget/packages/",
+        "outputPath": "/home/juliomoquenco/projetos/moquenco/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juliomoquenco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj": {
+                "projectPath": "/home/juliomoquenco/projetos/moquenco/Domain/Domain.csproj"
+              },
+              "/home/juliomoquenco/projetos/moquenco/Infra/Infra.csproj": {
+                "projectPath": "/home/juliomoquenco/projetos/moquenco/Infra/Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

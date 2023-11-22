@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Presentation.Data;
+using Infra.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
